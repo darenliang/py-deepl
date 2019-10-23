@@ -11,6 +11,8 @@ class DeepL:
         self.session = HTMLSession()
 
     def translate(self, text, dest="en", src="en"):
+        if dest == "" or src == "":
+            return []
         request = self.session.get(f"{Config.url_endpoint}#{src}/{dest}/{text}")
         request.html.render(sleep=Config.delay)
         elements = request.html.find("button.lmt__translations_as_text__text_btn")
