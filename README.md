@@ -35,6 +35,21 @@ There is only one function call in this library at the moment.
 
 The `dest` and `src` parameters are optional. The source language is detected by default and English is used as the default destination language.
 
+Languages supported:
+
+```
+"EN" - English
+"DE" - German
+"FR" - French
+"ES" - Spanish
+"PT" - Portuguese
+"IT" - Italian
+"NL" - Dutch
+"PL" - Polish
+"RU" - Russian
+```
+
+
 ### Troubleshooting
 
 If you encounter a problem where you are getting no empty results, you should consider increasing the delay of which the webpage is parsed.
