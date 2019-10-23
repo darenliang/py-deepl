@@ -38,15 +38,15 @@ The `dest` and `src` parameters are optional. The source language is detected by
 Languages supported:
 
 ```
-"EN" - English
-"DE" - German
-"FR" - French
-"ES" - Spanish
-"PT" - Portuguese
-"IT" - Italian
-"NL" - Dutch
-"PL" - Polish
-"RU" - Russian
+"en" - English
+"de" - German
+"fr" - French
+"es" - Spanish
+"pt" - Portuguese
+"it" - Italian
+"nl" - Dutch
+"pl" - Polish
+"ru" - Russian
 ```
 
 
