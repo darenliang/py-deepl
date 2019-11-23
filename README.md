@@ -52,7 +52,7 @@ Languages supported:
 
 ### Troubleshooting
 
-If you encounter a problem where you are getting no empty results, you should consider increasing the delay of which the webpage is parsed.
+If you encounter a problem where you are getting empty results, you should consider increasing the delay of which the webpage is parsed.
 
 `deepl.py`
 ```python
